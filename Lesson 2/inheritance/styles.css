@@ -19,9 +19,9 @@ h1 {
 
 /* Parent element with inherited properties */
 .parent {
-    color: #4CAF50; /* Font color will be inherited by child elements */
+    color: #3e93aa; /* Font color will be inherited by child elements */
     font-size: 18px; /* Font size will be inherited by child elements */
-    padding: 20px;
+    padding: 10px;
     background-color: #e0f7fa;
 }
 
@@ -34,9 +34,16 @@ h1 {
 
 /* Grandchild element with overridden styles */
 .grandchild {
-    color: #FF5722; /* Overridden font color */
+    color: #d37a14; /* Overridden font color */
     font-size: 14px; /* Overridden font size */
     background-color: #ffe0b2;
+    padding: 10px;
+}
+
+.grandchildchild {
+    color: #0d7e3c; /* Overridden font color */
+    font-size: 14px; /* Overridden font size */
+    background-color: #a2a509;
     padding: 10px;
 }
 
@@ -46,6 +53,7 @@ h1 {
     margin: 20px 0;
     background-color: #ffcdd2;
     font-size: 20px;
+    color: blue;
     /* Padding and margin will not be inherited by the <p> tag */
 }
 
